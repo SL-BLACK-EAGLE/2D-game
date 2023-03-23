@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>2D Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="wingame.gif">
+</head>
+
+<body class="body" onkeyup="k(event);">
+
+    <div class="b" id="b" >
+
+        <p class="score" id="score1" >0</p>
+
+        <img src="Run (1).png" class="boy" id="boy" />
+    </div>
+
+    <div class="end" id="end" >
+        <div class="a"> Game Over</div>
+        <div class="aa"> Your Score</div>
+        <div id="endscore" class="aa">0</div>
+        <button onclick="r();" class="btn">Try Again?</button>
+
+
+
+    </div>
+
+    <div class="win" id="win" >
+
+        <div class="aa">Your Score </div>
+        <div id="winscore" class="bb">0</div>
+        <button onclick="r();" class="btn">Next Level</button>
+       
+        
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
